@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+body
+{
+
+background-color:#ffeebb;
+color:#004065;
+font-family:Tahoma;
+text-align:center;
+
+}
+
+h2
+{
+border-width:15px;
+border-style:solid;
+border-color:#0096d6;
+background-color:#004065;
+font-size:x-large;
+color:#ffeebb;
+}
+
+p.one
+{
+border-width:15px;
+border-style:solid;
+border-color:#0096d6;
+background-color:white;
+font-size:medium;
+color:#004065;
+position:absolute;
+width:500px;
+left:20px;
+}
+
+p.two
+{
+border-width:15px;
+border-style:solid;
+border-color:#0096d6;
+background-color:white;
+font-size:medium;
+color:#004065;
+position:absolute;
+width:500px;
+right:20px;
+}
+
+a:link {color:#0096d6;}    /* unvisited link */
+a:visited {color:#c8b18b;} /* visited link */
+
+</style>
+<head>
+<title> Welcome to Admissions </title>
+</head>
+<body>
+
+<h2></br> Welcome to the Admissions Center </br></br></h2>
+    <p class="one"><br>Potential Students: <br><br>To start a new application, please select the first link. <br>To write a recommendation, please select the second link. <br>To check an application status, please login below. <br><br>Faculty and Current Students: <br><br>Please login to access your homepage.<br><br></p>
+<p class="two">
+<br><br>
+<a href="../applicationNessim/admissions.html"> Start a New Application</a>
+<br><br><br>
+<a href="../Recommendation/rec.php">Fill out a Recommendation</a>
+<br><br><br>
+<a href="../reset.php">Reset Database</a>
+</br></br><br>
+</p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+Login:<br><br>
+<form method="post" action="login.php">
+<label for="user">School Number*:</label>
+<input type="text" name="user" pattern="\d+"/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="pass"> Password*:</label>
+<input type="password" name="pass"/>
+<input type="submit" value="Go" name="go"/>
+</form>
+<br>
+<h4> *Please enter numbers only.</h4>
+<br>
+
+</body>
+</html>

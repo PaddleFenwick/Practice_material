@@ -1,0 +1,34 @@
+<html>
+<head>
+<title> Welcome to Admissions </title>
+</head>
+<body>
+    <h2> Welcome to the Admissions Center</h2>
+    <p>To start a new application, please click below to start. If you have already submitted an application and wish to check your status please login. If you are a faculty member, please login to access your homepage. If you are here to write a recommendation please, click the fill out a recommendation button. Thanks for visiting</p>
+<br>
+<a href="../applicationNessim/admissions.html"> Start a New Application</a>
+<br>
+<br>
+or
+<br>
+<br>
+Login:<br><br>
+<form method="post" action="login.php">
+<label for="user">School Number*:</label>
+<input type="text" name="user" pattern="\d+"/>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="pass"> Password*:</label>
+<input type="password" name="pass"/>
+
+<input type="submit" value="Go" name="go"/>
+</form>
+
+<br>
+<a href="../Recommendation/rec.php">Fill out a Recommendation.</a>
+<br><br>
+
+<h4> *Please enter numbers only.</h4>
+<br>
+<p><a href="../reset.php">Reset Database</a></p>
+</body>
+</html>

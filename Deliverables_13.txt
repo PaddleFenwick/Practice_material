@@ -1,0 +1,41 @@
+﻿Week 1
+March 27, 2013:
+
+
+Implement and Populate tables for Registration System
+        Carlos: Courses
+        Emily: Students, Professors, Transcripts, Enrollment
+
+
+Week 2
+April 3, 2013:
+
+
+During Week 2 we will create the student enrollment page and professor grade assignment page of the web registration system.  We will be primarily focusing on functionality of the pages, assuring that the correct information is translated into the databases and that the parameters of the registration pages are functioning correctly.
+
+
+Web Registration System
+Student Pages (Emily)
+                Register for Classes
+Professor/GS Pages (Carlos)
+                Assign Grades
+        
+Week 3
+April 10, 2013:
+
+
+We will complete the transcript portion of the Web Registration System.  Using correct data that we attained through the course enrollment and grade assignment pages, we will create a database of student transcripts.  We will implement a student page to access personal transcripts as well as a faculty page to search student transcripts.
+
+
+Web Registration System
+Student Pages (Emily)
+        Search for Transcript
+Professor/GS Pages (Carlos)
+        Search for Transcripts
+
+
+Week 4:
+April 16, 2013
+
+
+Iron out final details and fix any functionality errors.  Submit project.
